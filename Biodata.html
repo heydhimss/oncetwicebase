@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Biodata Anggota Twice</title>
+        <link rel="stylesheet" type="text/css" href="./css/Biodata.css">
+    </head>
+
+    <body>
+        <section>
+            <div class="bulet"></div>
+                <header>
+                    <a href="index.html"><img src="./media/LogoTwice.png" class="logo"></a>
+                    
+                    <ul>
+                        <li><a href="./Biodata.html">Biodata</a></li>
+                        <li><a href="./FunFacts.html">Fun Facts</a></li>
+                        <li><a href="./DaftarLagu.html">Daftar Lagu</a></li>
+                    </ul>
+                </header>
+                
+
+            
+                <div class="content">
+                    <div id="textbox">
+                        <h1>Click Gambar Anggota Untuk Melihat Biodata</h1></p>
+                    </div>
+                    <div>
+                        <ul class="thumb">
+                            <li><img  onclick="changeText(1)"  src="./media/Nayeon.png" class="Nayeon"></li>
+                            <li><img  onclick="changeText(2)"  src="./media/Jeongyeon.png" class="jeong"></li>
+                            <li><img  onclick="changeText(3)"  src="./media/Momo.png" class="momo"></li><br>
+                            <li><img  onclick="changeText(4)"  src="./media/Sana.png" class="sana"></li>
+                            <li><img  onclick="changeText(5)"  src="./media/Jihyo.png" class="jihyo"></li>
+                            <li><img  onclick="changeText(6)"  src="./media/Mina.png" class="mina"></li><br>
+                            <li><img  onclick="changeText(7)"  src="./media/Dahyun.png" class="dahyun"></li>
+                            <li><img  onclick="changeText(8)"  src="./media/Chaeyoung.png" class="chaeng"></li>
+                            <li><img  onclick="changeText(9)"  src="./media/Tzuyu.png" class="tzuyu"></li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+
+        <script>
+            function changeText(value){
+                if (value==1){
+                    document.getElementById("textbox").innerHTML =bacaTextNayeon();
+                }
+                if (value==2){
+                    document.getElementById("textbox").innerHTML = bacaTextJeong();
+                }
+
+                if (value==3){
+                    document.getElementById("textbox").innerHTML = bacaTextMomo();
+                }
+                if (value==4){
+                    document.getElementById("textbox").innerHTML =bacaTextSana();
+                }
+                if (value==5){
+                    document.getElementById("textbox").innerHTML = bacaTextJihyo();
+                }
+
+                if (value==6){
+                    document.getElementById("textbox").innerHTML = bacaTextMina();
+                }
+                if (value==7){
+                    document.getElementById("textbox").innerHTML =bacaTextDahyun()
+                }
+                if (value==8){
+                    document.getElementById("textbox").innerHTML = bacaTextChaeng();
+                }
+
+                if (value==9){
+                    document.getElementById("textbox").innerHTML = bacaTextTzuyu();
+                }
+            }
+
+
+        </script>
+
+
+        <script>
+            function bacaTextNayeon(){
+                var Nayeon=`<h3>Im Nayeon</h3><br>
+                            <p>Nama Asli: Im Na Yeon (임나연)<br>
+                            Nama Panggung: Nayeon (나연)<br>
+                            Kewarganegaraan: Korean<br>
+                            Posisi: Lead Vocalist, Lead Dancer, Center, Face of the Group<br>
+                            Tanggal Ulang Tahun: 22 September 1995<br>
+                            Zodiac: Virgo<br>
+                            Tinggi Badan: 163 cm (5'4″)<br>
+                            Berat Badan: 47 kg (104 lbs)<br>
+                            Golongan Darah: A<br>
+                            MBTI: ISFP<br>
+                            Representative Emoji: 🐰<br>
+                            Instagram: <a href="https://www.instagram.com/nayeonyny/" target="_blank">@nayeonyny</a></p>`;
+                return Nayeon
+        }
+
+        function bacaTextJeong(){
+                var Jeong=`<h3>Yoo Jeongyeon</h3><br>
+                            <p>Nama Asli: Yoo Jeong Yeon (유정연)<br>
+                            Nama Panggung: Jeongyeon (정연)<br>
+                            Kewarganegaraan: Korean<br>
+                            Posisi: Lead Vocalist<br>
+                            Tanggal Ulang Tahun: 1 November 1996<br>
+                            Zodiac: Scorpio<br>
+                            Tinggi Badan: 169 cm (5'7″)<br>
+                            Berat Badan: 50 kg (110 lbs)<br>
+                            Golongan Darah: O<br>
+                            MBTI: ISFJ<br>
+                            Representative Emoji: 💃🏻<br>
+                            Instagram: <a href="https://www.instagram.com/jy_piece/" target="_blank">@jy_piece</a></p>`;
+                return Jeong
+        }
+        function bacaTextMomo(){
+                var MOMO=`<h3>Momo</h3><br>
+                            <p>Nama Asli: Hirai Momo ((平井 もも)<br>
+                            Nama Panggung: Momo (모모)<br>
+                            Kewarganegaraan: Japanese<br>
+                            Posisi: Main Dancer, Sub Vocalist, Sub Rapper<br>
+                            Tanggal Ulang Tahun: 9 November 1996<br>
+                            Zodiac: Scorpio<br>
+                            Tinggi Badan: 167 cm (5'6″)<br>
+                            Berat Badan: 48.5 kg (106 lbs)<br>
+                            Golongan Darah: A<br>
+                            MBTI: INFP-T<br>
+                            Representative Emoji: 🍑<br>
+                            Instagram: <a href="https://www.instagram.com/momo/" target="_blank">@momo</a></p>`;
+                return MOMO
+        }
+        function bacaTextSana(){
+                var Sana=`<h3>Sana</h3><br>
+                            <p>Nama Asli: Minatozaki Sana (湊崎 紗夏)<br>
+                            Nama Panggung: Sana (사나)<br>
+                            Kewarganegaraan: Japanese<br>
+                            Posisi: Sub Vocalist<br>
+                            Tanggal Ulang Tahun: 29 December 1996<br>
+                            Zodiac: Capricorn<br>
+                            Tinggi Badan: 168 cm (5'6″)<br>
+                            Berat Badan: 47 kg (104 lbs)<br>
+                            Golongan Darah: B<br>
+                            MBTI: ENFP<br>
+                            Representative Emoji: 🐹<br>
+                            Instagram: <a href="https://www.instagram.com/m.by__sana/" target="_blank">@m.by__sana</a></p>`;
+                return Sana
+        }
+        function bacaTextJihyo(){
+                var Jihyo=`<h3>Jihyo</h3><br>
+                            <p>Nama Asli: Park Ji Hyo (박지효)<br>
+                            Nama Panggung: Jihyo (지효)<br>
+                            Kewarganegaraan: Korean<br>
+                            Posisi: Leader, Main Vocalist<br>
+                            Tanggal Ulang Tahun: 1 Februari 1997<br>
+                            Zodiac:Aquarius<br>
+                            Tinggi Badan: 160 cm (5'3″)<br>
+                            Berat Badan: 49 kg (108 lbs)<br>
+                            Golongan Darah: O<br>
+                            MBTI: ESFP-T<br>
+                            Representative Emoji: 🦄<br>
+                            Instagram: <a href="https://www.instagram.com/_zyozyo/" target="_blank">@_zyozyo</a></p>`;
+                return Jihyo
+        }
+
+        function bacaTextMina(){
+                var Mina=`<h3>Mina</h3><br>
+                            <p>Nama Asli: Myoui Mina (名井 南)<br>
+                            Nama Panggung: Mina (나연)<br>
+                            Nama Inggris: Sharon<br>
+                            Kewarganegaraan: Japanese<br>
+                            Posisi: Main Dancer, Sub Vocalist<br>
+                            Tanggal Ulang Tahun: 24 Maret 1997<br>
+                            Zodiac: Aries<br>
+                            Tinggi Badan: 163 cm (5'4″)<br>
+                            Berat Badan: 46 kg (101 lbs)<br>
+                            Golongan Darah: A<br>
+                            MBTI: ISTP<br>
+                            Representative Emoji: 🐧<br>
+                            Instagram: <a href="https://www.instagram.com/mina_sr_my/" target="_blank">@mina_sr_my</a></p>`;
+                return Mina
+        }
+
+        function bacaTextDahyun(){
+                var Dahyun=`<h3>Dahyun</h3><br>
+                            <p>Nama: Kim Da Hyun (김다현)<br>
+                            Nama Panggung: Dahyun (다현)<br>
+                            Kewarganegaraan: Korean<br>
+                            Posisi: Lead Rapper, Sub Vocalist<br>
+                            Tanggal Ulang Tahun: 28 Mei 1998<br>
+                            Zodiac: Gemini<br>
+                            Tinggi Badan: 161 cm (5'3″)<br>
+                            Berat Badan: 48.9 kg (108 lbs)<br>
+                            Golongan Darah: O<br>
+                            MBTI: ISFJ-T<br>
+                            Representative Emoji: 🦅<br>
+                            Instagram: <a href="https://www.instagram.com/dahhyunnee/" target="_blank">@dahhyunnee</a></p>`;
+                return Dahyun
+        }
+
+        function bacaTextChaeng(){
+                var Chaeng=`<h3>Chaeyoung</h3><br>
+                            <p>Nama: Son Chae Young (손채영)<br>
+                            Nama Panggung: Chaeyoung (채영)<br>
+                            Nama Inggris: Katrina
+                            Kewarganegaraan: Korean<br>
+                            Posisi: Main Rapper, Sub Vocalist<br>
+                            Tanggal Ulang Tahun: 23 April 1999<br>
+                            Zodiac: Taurus<br>
+                            Tinggi Badan: 159 cm (5'2″)<br>
+                            Berat Badan: 46 kg (101 lbs)<br>
+                            Golongan Darah: B<br>
+                            MBTI: INFP-T<br>
+                            Representative Emoji: 🐯<br>
+                            Instagram: <a href="https://www.instagram.com/chaeyo.0/" target="_blank">@chaeyo.0</a></p>`;
+                return Chaeng
+        }
+
+        function bacaTextTzuyu(){
+                var Tzuyu=`<h3>Tzuyu</h3><br>
+                            <p>Nama: Chou Tzuyu (周子瑜)<br>
+                            Nama Panggung: Tzuyu (쯔위)<br>
+                            Nama Korea: Chou Tzu Yu(저우쯔위)<br>
+                            Kewarganegaraan: Taiwanese<br>
+                            Posisi: Lead Dancer, Sub Vocalist, Visual, Maknae<br>
+                            Tanggal Ulang Tahun: 14 Juni 1999<br>
+                            Zodiac: Gemini<br>
+                            Tinggi Badan: 172 cm (5'6″)<br>
+                            Berat Badan: 48 kg (106 lbs)<br>
+                            Golongan Darah: A<br>
+                            MBTI: ISFP-A<br>
+                            Representative Emoji: 🦌<br>
+                            Instagram: <a href="https://www.instagram.com/thinkaboutzu/" target="_blank">@thinkaboutzu</a></p>`;
+                return Tzuyu
+        }
+
+
+    </script>
+
+
+    </body>
+</html>

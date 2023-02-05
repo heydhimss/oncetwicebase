@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Daftar Lagu Twice</title>
+        <link rel="stylesheet" type="text/css" href="./css/DaftarLagu.css">
+    </head>
+
+    <body>
+        <section>
+            <div class="bulet"></div>
+                <header>
+                    <a href="index.html"><img src="./media/LogoTwice.png" class="logo"></a>
+                    
+                    <ul>
+                        <li><a href="./Biodata.html">Biodata</a></li>
+                        <li><a href="./FunFacts.html">Fun Facts</a></li>
+                        <li><a href="./DaftarLagu.html">Daftar Lagu</a></li>
+                    </ul>
+                </header>
+                
+
+            
+                <div class="content">
+                    <div id="textbox">
+                        <h1>Click Gambar Anggota untuk melihat Biodata</h1></p>
+                    </div>
+                    <div>
+                        <ul class="thumb">
+                            <li><img  onclick="changeText(1)"  src="./media/album10.jpg"></li>
+                            <li><img  onclick="changeText(2)"  src="./media/album11.jpg" class="jeong"></li>
+                            <li><img  onclick="changeText(3)"  src="./media/album12.jpg" class="momo"></li><br>
+                            <li><img  onclick="changeText(4)"  src="./media/album13.jfif" class="sana"></li>
+                            <li><img  onclick="changeText(5)"  src="./media/album14.jpg" class="jihyo"></li>
+                            <li><img  onclick="changeText(6)"  src="./media/album15.png" class="mina"></li><br>
+                            <li><img  onclick="changeText(7)"  src="./media/album16.jfif" class="dahyun"></li>
+                            <li><img  onclick="changeText(8)"  src="./media/album17.jpg" class="chaeng"></li>
+                            <li><img  onclick="changeText(9)"  src="./media/album18.jpg" class="tzuyu"></li><br>
+                            <a href="./DaftarLagu.html">1</a>
+                            <a href="#">2</a>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+
+        <script>
+            function changeText(value){
+                if (value==1){
+                    document.getElementById("textbox").innerHTML =bacaTextNayeon();
+                }
+                if (value==2){
+                    document.getElementById("textbox").innerHTML = bacaTextJeong();
+                }
+
+                if (value==3){
+                    document.getElementById("textbox").innerHTML = bacaTextMomo();
+                }
+                if (value==4){
+                    document.getElementById("textbox").innerHTML =bacaTextSana();
+                }
+                if (value==5){
+                    document.getElementById("textbox").innerHTML = bacaTextJihyo();
+                }
+
+                if (value==6){
+                    document.getElementById("textbox").innerHTML = bacaTextMina();
+                }
+                if (value==7){
+                    document.getElementById("textbox").innerHTML =bacaTextDahyun()
+                }
+                if (value==8){
+                    document.getElementById("textbox").innerHTML = bacaTextChaeng();
+                }
+
+                if (value==9){
+                    document.getElementById("textbox").innerHTML = bacaTextTzuyu();
+                }
+            }
+
+
+        </script>
+
+
+        <script>
+            function bacaTextNayeon(){
+                var Nayeon=`<h3>YES or YES</h3><br>
+                            <p>1. <a href="https://youtu.be/mAKsZ26SabQ" target="_blank">YES or YES</a><br>
+                            2. <a href="https://youtu.be/x2cUrOnaCDg" target="_blank">SAY YOU LOVE ME</a><br>
+                            3. <a href="https://youtu.be/6D1LR9F5j8g" target="_blank">LALALA</a?<br>
+                            4. <a href="https://youtu.be/lgT7YKt0syY" target="_blank">YOUNG & WILD</a><br>
+                            5. <a href="https://youtu.be/_NY6kOB4VVU" target="_blank">SUNSET</a><br>
+                            6. <a href="https://youtu.be/Cmlhdt2j62s" target="_blank">AFTER MOON</a><br>
+                            7. <a href="https://youtu.be/-tsddqSTkOw" target="_blank">BDZ (Korean Ver.)<p>`;
+                return Nayeon
+        }
+
+        function bacaTextJeong(){
+                var Jeong=`<h3>The Year Of "YES"</h3><br>
+                            <p>1. <a href="https://youtu.be/CfUGjK6gGgs" target="_blank">올해 제일 잘한 일 (The Best Thing I Ever Did)</a><br>
+                            2. <a href="https://youtu.be/Svk07DjlTE8" target="_blank">Be as ONE (Korean Ver)</a><br>
+                            3. <a href="https://youtu.be/mAKsZ26SabQ" target="_blank">YES or Yes</a><br>
+                            4. <a href="https://youtu.be/x2cUrOnaCDg" target="_blank">SAY YOU LOVE ME</a><br>
+                            5. <a href="https://youtu.be/6D1LR9F5j8g" target="_blank">LALALA</a><br>
+                            6. <a href="https://youtu.be/lgT7YKt0syY" target="_blank">YOUNG & WILD</a><br>
+                            7. <a href="https://youtu.be/_NY6kOB4VVU" target="_blank">SUNSET</a><br>
+                            8. <a href="https://youtu.be/Cmlhdt2j62s" target="_blank">AFTER MOON</a><br>
+                            9. <a href="https://youtu.be/-tsddqSTkOw" target="_blank">BDZ (Korean Ver.)<p>`;
+                return Jeong
+        }
+
+        function bacaTextMomo(){
+                var MOMO=`<h3>FANCY YOU</h3><br>
+                            <p>1. <a href="https://youtu.be/kOHB85vDuow" target="_blank">FANCY</a><br>
+                            2. <a href="https://youtu.be/k9UXGuoc4lQ" target="_blank">STUCK IN MY HEAD</a><br>
+                            3. <a href="https://youtu.be/S7TlMUs9ptk" target="_blank">GIRLS LIKE US</a><br>
+                            4. <a href="https://youtu.be/JOswKXwfJ_s" target="_blank">HOT</a><br>
+                            5. <a href="https://youtu.be/Ssro0ddHe1Y" target="_blank">TURN IT UP</a><br>
+                            6. <a href="https://youtu.be/HFD_8hsjyXE" target="_blank">STRAWBERRY</a><p>`;
+                return MOMO
+        }
+        function bacaTextSana(){
+                var Sana=`<h3>Feel Special</h3><br>
+                            <p>1. <a href="https://youtu.be/3ymwOvzhwHs" target="_blank">Feel Special</a><br>
+                            2. <a href="https://youtu.be/uU8ib9OLrnE" target="_blank">RAINBOW</a><br>
+                            3. <a href="https://youtu.be/Kt80per7teY" target="_blank">GET LOUD</a><br>
+                            4. <a href="https://youtu.be/NNWADYNmENM" target="_blank">TRICK IT</a><br>
+                            5. <a href="https://youtu.be/PeFXRIJXYZo" target="_blank">LOVE FOOLISH</a><br>
+                            6. <a href="https://youtu.be/gsmSi4avq-0" target="_blank">21:29</a><br>
+                            7. <a href="https://youtu.be/qJXJofDk7Wo" target="_blank">BREAKTHROUGH (Korean Ver.)</a><p>`;
+                return Sana
+        }
+        function bacaTextJihyo(){
+                var Jihyo=`<h3>MORE & MORE</h3><br>
+                            <p>1. <a href="https://youtu.be/mH0_XpSHkZo" target="_blank">MORE & MORE</a><br>
+                            2. <a href="https://youtu.be/ssAa1Vf3KTQ" target="_blank">OXYGEN</a><br>
+                            3. <a href="https://youtu.be/lWX3WCF1qwg" target="_blank">FIREWORK</a><br>
+                            4. <a href="https://youtu.be/3fqDjzbtbG4" target="_blank">MAKE ME GO </a><br>
+                            5. <a href="https://youtu.be/lUS74hctjZg" target="_blank">SHADOW</a><br>
+                            6. <a href="https://youtu.be/gPQLExipfZ8" target="_blank">DON'T CALL ME AGAIN</a><br>
+                            7. <a href="https://youtu.be/qYNnBg2VQWg" target="_blank">SWEET SUMMER DAY</a><p>`;
+                return Jihyo
+        }
+
+        function bacaTextMina(){
+                var Mina=`<h3>Eyes Wide Open</h3><br>
+                            <p>1. <a href="https://youtu.be/CM4CkVFmTds" target="_blank">I CAN'T STOP ME</a><br>
+                            2. <a href="https://youtu.be/0O18GnTW1CU" target="_blank">HELL IN HEAVEN</a><br>
+                            3. <a href="https://youtu.be/Qgylz1pLFE0" target="_blank">UP NO MORE</a><br>
+                            4. <a href="https://youtu.be/Zw2SgJXWP-4" target="_blank">DO WHAT WE LIKE</a><br>
+                            5. <a href="https://youtu.be/pG1JNdtNNMM" target="_blank">BRING IT BACK</a><br>
+                            6. <a href="https://youtu.be/UD-NryVdDts" target="_blank">BELIEVER</a><br>
+                            7. <a href="https://youtu.be/21BJa_LA9W4" target="_blank">QUEEN</a><br>
+                            8. <a href="https://youtu.be/VSc74fDej4I" target="_blank">GO HARD</a><br>
+                            9. <a href="https://youtu.be/ujy8oFwxRF4" target="_blank">SHOT CLOCK</a><br>
+                            10. <a href="https://youtu.be/nNTZw8yvMn8" target="_blank">HANDLE IT</a><br>
+                            11. <a href="https://youtu.be/Jj9vsP4HWwg" target="_blank">DEPEND ON YOU</a><br>
+                            12. <a href="https://youtu.be/UY3N52CrTPE" target="_blank">SAY SOMETHING</a><br>
+                            13. <a href="https://youtu.be/xQVowR4myeU" target="_blank">BEHIND THE MASK<p>`;
+                return Mina
+        }
+
+        function bacaTextDahyun(){
+                var Dahyun=`<h3>Taste of Love</h3><br>
+                            <p>1. <a href="https://youtu.be/XA2YEHn-A8Q" target="_blank">Alcohol-Free</a><br>
+                            2. <a href="https://youtu.be/mG1AMqDTOzg" target="_blank">First Time</a><br>
+                            3. <a href="https://youtu.be/XfHE--ZzhWQ" target="_blank">Scandal</a><br>
+                            4. <a href="https://youtu.be/KwqUdV2hpII" target="_blank">Conversation</a><br>
+                            5. <a href="https://youtu.be/KRE5FpVxZVQ" target="_blank">Baby Blue Love</a><br>
+                            6. <a href="https://youtu.be/jI_pTD3cy8M" target="_blank">SOS</a><br>
+                            7. <a href="https://youtu.be/bkQw-F1QTq4" target="_blank">CRY FOR ME</a><p>`;
+                return Dahyun
+        }
+
+        function bacaTextChaeng(){
+                var Chaeng=`<h3>Formula of Love: O+T=<3</h3><br>
+                            <p>1. <a href="https://youtu.be/vPwaXytZcgI" target="_blank">SCIENTIST</a><br>
+                            2. <a href="https://youtu.be/Q8nCjQCvWD4" target="_blank">MOONLIGHT</a><br>
+                            3. <a href="https://youtu.be/wfXETdOzYos" target="_blank">iCON</a><br>
+                            4. <a href="https://youtu.be/HQXBAGVSOyY" target="_blank">CRUEL</a><br>
+                            5. <a href="https://youtu.be/gzOdfzuFJ3E" target="_blank">REAL YOU</a><br>
+                            6. <a href="https://youtu.be/I4xliZW07tk" target="_blank">F.I.L.A(Fall In Love Again)</a><br>
+                            7. <a href="https://youtu.be/sb27EfioKKw" target="_blank">LAST WALTZ</a><br>
+                            8. <a href="https://youtu.be/kFudXy6hma8" target="_blank">ESPRESSO</a><br>
+                            9. <a href="https://youtu.be/kcl1OpkDGHU" target="_blank">알고 싶지 않아 (REWIND)</a><br>
+                            10. <a href="https://youtu.be/OTHG8RqPSKE" target="_blank">선인장 (CACTUS)</a><br>
+                            11. <a href="https://youtu.be/LKHm2N-knDQ" target="_blank">PUSH & PULL</a><br>
+                            12. <a href="https://youtu.be/nhL_Ual1DZk" target="_blank">HELLO</a><br>
+                            13. <a href="https://youtu.be/xGFEC0hUlnM" target="_blank">1,3,2</a><br>
+                            14. <a href="https://youtu.be/AMRCx2kjv2A" target="_blank">CANDY</a><br>
+                            15. <a href="https://youtu.be/f5_wn8mexmM" target="_blank">The Feels</a><p>`;
+                return Chaeng
+        }
+
+        function bacaTextTzuyu(){
+                var Tzuyu=`<h3>BETWEEN 1&2</h3><br>
+                            <p>1. <a href="https://youtu.be/k6jqx9kZgPM" target="_blank">Talk That Talk</a><br>
+                            2. <a href="https://youtu.be/Q4Rb5_kjS2M" target="_blank">Queen of Heart</a><br>
+                            3. <a href="https://youtu.be/59Z6bDaIQtY" target="_blank">Basics</a><br>
+                            4. <a href="https://youtu.be/vm9Lkyp4l9Q" target="_blank">Trouble</a><br>
+                            5. <a href="https://youtu.be/QTy21FWLvqY" target="_blank">Brave</a><br>
+                            6. <a href="https://youtu.be/eGL-O-vZFMA" target="_blank">Gone</a><br>
+                            7. <a href="https://youtu.be/K8vqtOzTd7w" target="_blank">When We Were Kids</a><p>`;
+                return Tzuyu
+        }
+
+
+    </script>
+
+
+    </body>
+</html>
